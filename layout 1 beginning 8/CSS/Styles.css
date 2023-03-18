@@ -1,0 +1,358 @@
+
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    div.container{
+      overflow: hidden;
+    }
+    body{
+      background: #fff;
+      font-family:sans-serif;
+      margin-top: 200px;
+    }
+
+    header{
+      position: fixed;
+      left:0;
+      top:0;
+      right:0;
+      background-color: #f1f1f1 ; 
+      display:flex;
+      justify-content: space-between;
+      z-index: 999;
+    }
+
+  .header ul li{
+    list-style-position: calc(20);
+  }
+
+    header img{
+      width: 65%;
+      margin: 1px 0;
+    }
+
+    header a {
+      width: 20%;
+    }
+
+    h1{
+      font-size:9vw;
+      margin-top: 15x;
+      font-variant: all-petite-caps;
+      width:60%;
+      font-family:serif;
+      color:rgb(106, 103, 103);
+      text-shadow: 2px 2px 2px blue;
+    }
+
+    #nav_top ul{
+        padding: 1em 1em;
+    }
+    #nav_top ul li{
+      line-height: 2em;
+      background-color: rgb(193, 130, 12);
+      margin-bottom: 10px;
+      padding: 3px;
+      list-style: none;
+      nav-left: auto;
+    }
+    #nav_top ul li a{
+      text-decoration: none;
+      font-size:1em;
+      margin: 5px;
+    }
+    
+#nav_menu{
+display:block;
+}
+    #nav_menu ul{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    background-color:rgb(159, 184, 196);
+    
+    }
+
+    #nav_menu ul li{
+      list-style: none;
+      line-height: 4em;
+      text-align: center;
+      font-size: 1.8em;
+      flex-grow:1;
+    border: 2px solid goldenrod;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+    }
+
+        footer{
+      font-size:9vw;
+       font-family:serif;
+      color:rgb(106, 103, 103);
+      text-shadow: 2px 2px 2px blue;
+    background-color:rgb(159, 184, 196);
+
+    }
+
+/*Pseudo hover class */
+#nav_menu ul li:hover{
+  text-decoration:underline;
+  cursor: pointer;
+  flex-grow:3;
+  background-color: rgb(193, 154, 39);
+}
+
+  section{
+      background: green;
+      width: 30%;
+  }
+  div.cycle-slideshow{
+    width: 100%;
+  }
+  div.cycle-slideshow img{
+    width: 100%;
+  }
+
+    #nav_side {
+      margin-top: 45px;
+    }
+    #nav_side ul li{
+    display: block;
+    background-color:rgb(81, 156, 81);
+    margin-bottom: 5px;
+    font-size: x-large;
+    line-height: 2em;
+    text-align: center;
+    overflow:hidden;
+    -webkit-transition: cycle-slideshow 0.1s linear 0s;
+    -moz-transition: cycle-slideshow 0.1s linear 0s;
+    -o-transition: cycle-slideshow 0.1s linear 0s;
+    -ms-transition: cycle-slideshow 0.1s linear 0s;
+    transition: cycle-slideshow 0.1s linear 0s;
+    }
+
+    #nav_menu a{
+      color:rgb(244,241, 241);
+  text-shadow:1px 1px 2px blue;
+  font-weight:900;
+  font-size: 1em;
+
+      }
+
+ a,c {
+  color:white;
+ }
+
+ p {
+  padding-top: 10px;
+  height:50px;
+  overflow: hidden;
+  padding-bottom: 10px;
+  color: dark green;
+  text-align: center;
+  font-weight:bold;
+  font-size: xx-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  -webkit-transition:all 1s ease-in-out .2s;
+  -moz-transition:all 1s ease-in-out .2s;
+  -ms-transition:all 1s ease-in-out .2s;
+  -o-transition:all 1s ease-in-out .2s;
+  transition:all 1s ease-in-out .2s;
+ }
+
+ .overlay {
+  background-color:rgba(255,255,255,0.5);
+  padding: 30px;
+  
+ 
+ }
+
+ .overlay p:hover {
+height: 250px;
+ }
+
+ .container main{
+  width:70%;
+  height: 620px;
+    color: rgba(123, 131, 123, 0.802);
+  background-blend-mode:multiply;
+  background-image: url("../images/VisionPic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+    .container section, .container main{
+      float:left;
+    }
+
+   container section{
+    width: 25%;
+    Padding:200px;
+    }
+
+
+    
+/*===================*/
+/*Counselor html*/
+/*===================*/
+
+.Count-container{
+  position: relative;
+  padding: 60px;
+  background-color: #f1f1f1;
+  overflow: hidden;
+  height: 600px;
+}
+
+.Count-wrap{
+  flex-wrap:wrap;
+}
+
+.Count-container{
+  display: flex;
+  justify-content: space-between;
+}
+.Count-item{
+  width:25%;
+}
+
+.bottommargin{
+  margin: bottom 50px !important;
+  background-color: bisque;
+}
+.team .team-image{
+  position:relative;
+}
+
+.team-desc ul li{
+  margin:0;
+  padding:0;
+  text-align:left; 
+  font-size:x-large;
+
+
+} 
+
+
+
+/*===================*/
+/*Application html*/
+/*===================*/
+
+#App_container ul{
+  margin-left: 10px;;
+  width:100%;
+  height:620px;
+  overflow:hidden;
+    background-color: rgb(204, 236, 203);
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+#App_container ul li{
+  width:300px;height:100px;border;
+  display: block;
+  background-color:rgb(33, 146, 76);
+  margin-left:100px;
+  margin-top: 40px;;
+  margin-bottom: 5px;
+  font-size: x-large;
+  line-height: 5em;
+  text-align: center;
+  overflow:hidden;
+}
+
+    
+/*===============*/
+/*Resources html*/
+/*==============*/
+
+.flex-container{
+
+  position: relative;
+  padding: 60px;
+  background-color: #f1f1f1;
+  overflow: hidden;
+  height: 600px;
+}
+
+.flex-wrap{
+  flex-wrap:wrap;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-item{
+  width:25%;
+}
+
+.bottommargin{
+  margin: bottom 50px !important;
+}
+.Reso, .reso-image{
+  position:relative;
+}
+
+.Reso-desc ul li{
+  margin:0;
+  padding:0;
+  text-align:left; 
+  font-size:x-large;
+
+
+} 
+
+/*===================*/
+/*Financial Aids html*/
+/*===================*/
+
+
+ #fin_container ul{
+  margin-left: 50px;;
+  width:100%;
+  height:620px;
+  overflow:hidden;
+    background-image: url("../images/Money.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+#fin_container ul li{
+  width:300px;height:100px;border;
+  display: block;
+  background-color:rgb(92, 83, 50);
+
+  margin-left:900px;
+  margin-top: 40px;;
+  margin-bottom: 5px;
+  font-size: x-large;
+  line-height: 5em;
+  text-align: center;
+  overflow:hidden;
+}
+
+   @media screen and (max-width: 700px) {
+  .container section{
+float: none;
+width: 100%;
+  }
+  section ul{
+    width: 100%;
+  }
+  #nav_menu ul{
+    flex-direction: column;
+  }
+  .container main{
+    float: none;
+    display: block;
+    width: 100%;
+    height: 600px;
+  }
+    }
+
